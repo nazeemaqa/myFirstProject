@@ -1,4 +1,4 @@
-public class ExcerciseClass {
+public class Exercise {
     // attributies
    String  name;
    int difficultylevel;
@@ -6,7 +6,7 @@ public class ExcerciseClass {
    String discription;
 
 // contructor
-   ExcerciseClass (String  name, int difficultylevel,  int durationMinutes, String discription){
+   Exercise(String  name, int difficultylevel, int durationMinutes, String discription){
        this.name = name;
        this.difficultylevel =difficultylevel;
        this.durationMinutes = durationMinutes;
@@ -19,9 +19,11 @@ public class ExcerciseClass {
 // getters
 
  public String getName(){
+
        return name;
  }
  public int getDifficultyLevel(){
+
        return difficultylevel;
  }
  public int getDurationMinutes(){
