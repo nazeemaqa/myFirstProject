@@ -7,8 +7,15 @@ public class ExcerciseClass {
 
 // contructor
    ExcerciseClass (String  name, int difficultylevel,  int durationMinutes, String discription){
+       this.name = name;
+       this.difficultylevel =difficultylevel;
+       this.durationMinutes = durationMinutes;
+       this.discription=discription;
+   }
 
-    }
+
+
+
 // getters
 
  public String getName(){
@@ -22,7 +29,8 @@ public class ExcerciseClass {
 
  }
  public String getDiscription(){
-    return discription;
+
+       return discription;
     }
 
 
