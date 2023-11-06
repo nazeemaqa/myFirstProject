@@ -10,7 +10,7 @@
 
 class child extends Mark{
     public void display(int marks) {
-        System.out.println(marks + "is displayed");
+        System.out.println(marks +  " is displayed");
 
     }}
 public class AbstractionExample {
@@ -19,8 +19,6 @@ public static void main (String argsn[]){
     child c=new child();
     c.display(45);
 }
-
-
 
 
 
